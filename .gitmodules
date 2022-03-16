@@ -4,3 +4,6 @@
 [submodule "html"]
 	path = html
 	url = https://github.com/ramigglez/html.git
+[submodule "Html"]
+	path = Html
+	url = https://github.com/ramigglez/Html.git

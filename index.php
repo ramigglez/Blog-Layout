@@ -1,7 +1,7 @@
 <?php
 
 require_once './Strings/Strings.php';
-require_once './html/html.php';
+require_once './Html/html/html.php';
 
 //Blog Layout
 page(
