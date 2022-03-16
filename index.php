@@ -13,6 +13,17 @@ page(
                 'keyval' => ['charset' => 'UTF-8'],
                 'inline' => []
             ]
+        ),
+        tag(
+            'link',
+            [
+                'keyval' => [
+                    'rel' => 'stylesheet',
+                    'type' => 'text/css',
+                    'href' => './Css/Layout.css'
+            ],
+                'inline' => []
+            ]
         )
     ],
     //body content (array || string || null)
@@ -46,44 +57,84 @@ page(
                         'inline' => []
                     ],
                     #leftcolumn content
-                    tag(
-                        'div',
-                        [
-                            'keyval' => [
-                                'class' => 'card'
-                            ],
-                            'inline' => []
-                        ],
-                        #card content
-                        [
-                            tag(
-                                'h2',
-                                null,
-                                'TITLE HEADING'
-                            ),
-                            tag(
-                                'h5',
-                                null,
-                                'Title decription, Mar 16, 2022'
-                            ),
-                            tag(
-                                'div',
-                                [
-                                    'keyval' => [
-                                        'class' => 'fakeimg',
-                                        'style' => 'height:200px;'
-                                    ],
-                                    'inline' => []
+                    [
+                        tag(
+                            'div',
+                            [
+                                'keyval' => [
+                                    'class' => 'card'
                                 ],
-                                'Image'
-                            ),
-                            tag(
-                                'p',
-                                null,
-                                'Some Text ...'
-                            )
-                        ]
-                    )
+                                'inline' => []
+                            ],
+                            #card content
+                            [
+                                tag(
+                                    'h2',
+                                    null,
+                                    'TITLE HEADING'
+                                ),
+                                tag(
+                                    'h5',
+                                    null,
+                                    'Title decription, Mar 16, 2022'
+                                ),
+                                tag(
+                                    'div',
+                                    [
+                                        'keyval' => [
+                                            'class' => 'fakeimg',
+                                            'style' => 'height:200px;'
+                                        ],
+                                        'inline' => []
+                                    ],
+                                    'Image'
+                                ),
+                                tag(
+                                    'p',
+                                    null,
+                                    'Some Text ...'
+                                )
+                            ]
+                        ),
+                        tag(
+                            'div',
+                            [
+                                'keyval' => [
+                                    'class' => 'card'
+                                ],
+                                'inline' => []
+                            ],
+                            #card content
+                            [
+                                tag(
+                                    'h2',
+                                    null,
+                                    'TITLE HEADING'
+                                ),
+                                tag(
+                                    'h5',
+                                    null,
+                                    'Title decription, Mar 17, 2022'
+                                ),
+                                tag(
+                                    'div',
+                                    [
+                                        'keyval' => [
+                                            'class' => 'fakeimg',
+                                            'style' => 'height:200px;'
+                                        ],
+                                        'inline' => []
+                                    ],
+                                    'Image'
+                                ),
+                                tag(
+                                    'p',
+                                    null,
+                                    'Some Text ...'
+                                )
+                            ]
+                        )
+                    ]
                 ),
                 tag(
                     'section',
