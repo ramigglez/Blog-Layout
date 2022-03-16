@@ -1,0 +1,6 @@
+[submodule "Strings"]
+	path = Strings
+	url = https://github.com/ramigglez/Strings.git
+[submodule "html"]
+	path = html
+	url = https://github.com/ramigglez/html.git
